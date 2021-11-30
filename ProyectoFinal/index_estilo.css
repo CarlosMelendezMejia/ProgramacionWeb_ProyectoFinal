@@ -1,0 +1,195 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:'Cafe';
+    src: url('Louis George Cafe.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family:'Social Symbol';
+    src: url('Social_Shapes.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+ul{
+    list-style-type:none;
+}
+
+header{
+    background-color: #F2F2F2;
+    height:250px;
+}
+
+main{
+    background-image:url("background_madera_azul.png");
+    height: 2700px;
+}
+
+footer{
+    background-color: #E3007A;
+    height: 215px;
+}
+
+header, main{
+    padding: 40px 90px 40px 90px;
+}
+
+footer{
+    padding: 40px 90px 40px 90px;
+}
+
+.header_wrap, .main_wrap, .footer_wrap{
+    height:100%;
+}
+
+.header_up{
+    height:65%;
+}
+
+.header_up img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
+
+.header_down{
+    height:35%;
+    padding-top: 30px;
+}
+
+.header_ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_ul li a{
+    color:gray;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:'Cafe';
+    letter-spacing:  5px;  
+}
+
+.header_ul li a:hover{
+    color:#E3007A;
+}
+
+.main_div_1,.main_div_2,.main_div_3,.main_div_4,.main_div_5{
+    background-color:white;
+    height:18%;
+    margin-bottom: 40px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.main_div_img_1,.main_div_img_2{
+    background-color: #E3007A;
+    width:38%;
+    border-radius: 25px 25px 25px 25px;
+    padding:30px;
+}
+
+.main_div_txt_1,.main_div_txt_2{
+    background-color: #5BA626;
+    width:58%;
+    border-radius: 25px 25px 25px 25px;
+    padding:30px;
+}
+
+.main_div_img_1 img, .main_div_img_2 img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.main_title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cafe';
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.main_content{
+    text-align:justify;
+    font-size:20px;
+    margin-bottom: 15px;
+    font-family: 'Cafe';
+    letter-spacing: 2px;
+}
+
+.main_button{
+    background-color: #f16db4;
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Cafe';
+    width:300px;
+    padding: 10px 0px 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.main_button:hover{
+    background-color:#E3007A;
+    color:white;
+}
+
+.footer_wrap{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer_img{
+    width:10%;
+}
+
+.footer_img img{
+    height: 100%;
+    width: 100%;
+}
+
+.footer_txt, .footer_social{
+    width:35%;
+}
+
+.footer_subtitle{
+    color:white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Cafe';
+    letter-spacing: 4px;
+}
+
+.footer_subtext{
+    color:white;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Cafe';
+    letter-spacing: 4px;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+}
+
+.social{
+    color:white;
+    font-family: 'Social Symbol';
+    font-size: 40px;
+    padding: 20px 10px 0px 0px;
+}
